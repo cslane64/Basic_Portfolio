@@ -43,8 +43,9 @@ li{
 }
 
 
-.container #bio{
+.container #section{
     background-color: #fff;
+    margin-bottom: 75px;
 }
 
 #about{
@@ -62,12 +63,72 @@ img{
     height: 150px;
     width: 150px;
     float: left;
-    margin-top: 25px; 
+    margin: 20px 15px;
+    
 }
 
 p{
     margin-top: 25px;
     line-height: 1.6;
-
 }
 
+footer {
+    border-top: 5px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    background-color: #666;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.port-list{
+    position: relative;
+    width: 300px;
+    height: 225px;
+    margin: 20px;
+    float: left;
+    padding: 100px;
+    
+}
+
+.port-list h4{
+    background-color:#4aaaa5;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 10px;
+    left: -0px;
+}
+
+#place1{
+    background: url(../images/place1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#place2{
+    background: url(../images/place2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#place3{
+    background: url(../images/place3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#place4{
+    background: url(../images/place4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#place5{
+    background: url(../images/place5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
