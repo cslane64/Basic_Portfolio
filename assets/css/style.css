@@ -24,6 +24,11 @@ header{
     margin: 0 auto;
 }
 
+.clearfix{
+    clear: both;
+    display: block;
+}
+
 #name{
     background-color: #4aaaa5;
     color: #fff;
