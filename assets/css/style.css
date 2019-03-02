@@ -45,10 +45,18 @@ nav a{
     border-right-color: #eee;
     border-right-width: 2px;
 }
+/* highlights links when user hovers*/
+nav a:hover {
+    color: rgb(70, 129,183)
+}
 /* removes the border and padding on the last link to line it up properly to the right */
 nav ul li:last-child a {
     border: none;
     padding: 0 0 0 15px;
+}
+/* makes the image opaque when hovered over */
+img:hover {
+    opacity: .5;
 }
 img{
     height: 225px;
@@ -59,6 +67,10 @@ img{
 p{
     margin-top: 25px;
     line-height: 1.6;
+}
+/* highlights the paragraph when user hovers over it*/
+p:hover {
+    background-color: rgb(70, 183, 113, .25);
 }
 footer {
     border-top: 5px;
@@ -107,6 +119,14 @@ footer {
     margin: 20px 20px 20px 0;
     float: left;
     padding: 100px;
+}
+/* makes images in the portfolio list opaque when hovered over */
+.port-list:hover{
+    opacity: .5;
+}
+/* make the portfolio labels change color when user hovers on them */
+.port-list h4:hover {
+    background-color: rgb(74, 193,153);
 }
 /* styling for header h1 tag */
 #name{
@@ -159,6 +179,12 @@ footer {
     padding: 10px;
     margin-bottom: 15px;
     border-color: #ccc;
+}
+
+/* change the color of the submit button text when user hovers*/
+#button:hover {
+    color: #000;
+    background-color: rgb(70, 129,183, .5)
 }
 /* send button on contact page */
 #button{
