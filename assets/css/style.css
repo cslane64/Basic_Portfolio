@@ -14,11 +14,13 @@ header{
     margin-bottom: 20px;
     padding: 25px;
 }
+/* Provides formatting for the labels in the contact form*/
 form label{
     display: block;
     font-size: 16px;
     color: #777;
 }
+/* used to create seperation from the border above and the Name label */
 form label:first-child {
     margin-top: 15px;
 }
@@ -34,6 +36,7 @@ nav{
 nav li {
     display: inline;
 }
+/* used to make the links on the page match the example image */
 nav a{
     color:#ccc;
     padding: 0 15px;
@@ -42,15 +45,16 @@ nav a{
     border-right-color: #eee;
     border-right-width: 2px;
 }
+/* removes the border and padding on the last link to line it up properly to the right */
 nav ul li:last-child a {
     border: none;
     padding: 0 0 0 15px;
 }
 img{
-    height: 150px;
-    width: 150px;
+    height: 225px;
+    width: 225px;
     float: left;
-    margin: 20px 15px;
+    margin: 20px 20px 10px 0;
 }
 p{
     margin-top: 25px;
@@ -70,10 +74,12 @@ footer {
     width: 960px;
     margin: 0 auto;
 }
+/* hack to clear floats*/
 .clearfix{
     clear: both;
     display: block;
 }
+/* styling for list of portfolio item labels */
 .port-list h4{
     background-color:#4aaaa5;
     color: #fff;
@@ -84,18 +90,25 @@ footer {
     bottom: 10px;
     left: -0px;
 }
+/* styling for the page content holder */
 .container #section{
     background-color: #fff;
     margin-bottom: 75px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ddd;
+    padding: 25px;
 }
+/* styling for all portfolio image elements */
 .port-list{
     position: relative;
     width: 300px;
     height: 225px;
-    margin: 20px;
+    margin: 20px 20px 20px 0;
     float: left;
     padding: 100px;
 }
+/* styling for header h1 tag */
 #name{
     background-color: #4aaaa5;
     color: #fff;
@@ -104,14 +117,16 @@ footer {
     padding: 25px;
     font-size: 30px;
 }
+/* styling for each sections h2 tag */
 #about{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 25px;
+    padding: 0 0 25px 0;
     font-size: 25px;
     color: #4aaaa5;
     border-bottom: 2px;
     border-style: solid;
-    border-color: #ccc;
+    border-color: #ddd;
+    
 }
 #place1{
     background: url(../images/file-11.jpeg);
@@ -138,12 +153,14 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* styling for contact forms message text area */
 #field-message{
     width: 95%;
     padding: 10px;
     margin-bottom: 15px;
     border-color: #ccc;
 }
+/* send button on contact page */
 #button{
     background-color: #4aaaa5;
     color: #fff;
